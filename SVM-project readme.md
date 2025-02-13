@@ -48,5 +48,23 @@ The model demonstrates a strong ability to distinguish between users who are lik
 
 ---
 
+### 🧠 Mathematical Formulations
+
+The SVM model finds the hyperplane that best separates the classes by maximizing the margin. The equation of the hyperplane is:
+
+$$ w \cdot x + b = 0 $$
+
+The decision function is defined as:
+
+$$ f(x) = \text{sign}(w \cdot x + b) $$
+
+The objective of the SVM optimization is to minimize:
+
+$$ \frac{1}{2}||w||^2 $$
+
+subject to the constraint:
+
+$$ y_i(w \cdot x_i + b) \geq 1 $$
+
 Feel free to check out the code in the repository and reach out for any questions or collaborations! 🚀
 
