@@ -22,7 +22,7 @@ Classifying emails into spam vs. non-spam based on word frequency.
 
 🛠️ **Formula:**
 
-> \(f(x) = w^T x + b\)
+$$f(x) = w^T x + b$$
 
 ---
 
@@ -42,7 +42,7 @@ Classifying images with circular or spiral patterns that can't be separated with
 
 🛠️ **Formula (RBF Kernel):**
 
-> \(K(x, x') = \exp(-\gamma ||x - x'||^2)\)
+$$K(x, x') = \exp(-\gamma \|x - x'\|^2)$$
 
 ---
 
